@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="leftcolumn">
+                <h3 class="home">HOME</h3>
+                <div class="homenum" id="homenum">0</div>
+                <div class="homebtns">
+                <button onclick="plus1()">+1</button>
+                <button onclick="plus2()">+2</button>
+                <button onclick="plus3()">+3</button>
+                </div>
+                <button class="hrbtn" onclick="rhomebtn()">RESET</button>
+            </div>
+            <div>
+                <div class="rightcolumn">
+                <h3 class="guest">GUEST</h3>
+                <div class="guestnum" id="guestnum">0</div> 
+                <div class="guestbtns">
+                <button onclick="rplus1()">+1</button>
+                <button onclick="rplus2()">+2</button>
+                <button onclick="rplus3()">+3</button>
+                </div>
+                <button class="resetbtn" onclick="clickrset()">RESET</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

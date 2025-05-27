@@ -1,0 +1,104 @@
+body {
+   margin: 0;
+   background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home{
+    font-size: 40px;
+    height: 10px;
+    margin-left: 10px;
+    color: whitesmoke;
+    
+}
+
+.guest{
+    color: white;
+    font-size: 40px;
+    height: 10px;
+    margin-left: 10px;
+     
+}
+
+.homenum{
+    display: flex;
+    height: 100px;
+    width: 150px;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: red
+}
+
+.guestnum{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 150px;
+    color: red;
+    background: black;
+    align-items: center;
+   font-size: 80px;
+   
+    
+}
+
+
+.homebtns{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.homebtns > button{
+ background: #1B244A;
+ color: #9AABD8;
+ height: 50px;
+ width: 40px;
+ border: solid;
+ border-radius: 5px;
+}
+
+.guestbtns{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.guestbtns > button{
+    height: 50px;
+    width: 40px;
+    border: solid;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    background: #1B244A;
+    border-radius: 5px;
+}
+
+.resetbtn{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 100px;
+    height: 30px;
+    background: #1B244A;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    border-radius: 5px;
+}
+
+.hrbtn{
+    margin-top: 15px;
+    margin-left: 25px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background: #1B244A;
+    color: #9AABD8;
+    border-color: #9AABD8;
+}
